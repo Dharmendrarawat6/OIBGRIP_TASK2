@@ -1,0 +1,88 @@
+body{
+    background-color: #918989;
+}
+.navbar{
+    display: flex;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    left: 561px;
+}
+.list li{
+display: inline;
+padding: 12px;
+ position: relative;
+left: 317px;
+text-decoration: none;
+}
+.list li:hover{
+    text-decoration: underline;
+    color: rgb(228, 24, 31)
+}
+.title
+{
+    margin: auto;
+    width: 304px;
+}
+.title h2{
+    color: #2c0d13;
+    font-family: cursive;
+}
+.image{
+    height: 250px;
+    margin: 82px;
+    padding: 13px;
+}
+.about{
+    display: flex;
+}
+.aboutme{
+    margin: 82px;
+    padding: 13px;
+}
+.btn{
+    color: blue;
+
+}
+.btn:hover{
+    text-decoration: underline;
+    color: rgb(228, 24, 31)
+}
+.aboutme h3{
+    font-size: large;
+    color: tomato;
+}
+.skill h1{
+    display: flex;
+    justify-content: center;
+}
+.skill ul{
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    font-size: x-large;
+}
+.contact h1{
+    display: flex;
+    justify-content: center;
+    padding: 21px;
+}
+form{
+    display: grid;
+    row-gap: 10px;
+    width: 100px;
+    margin: auto;
+}
+.address h1{
+    display: flex;
+    justify-content: center;
+    padding: 21px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 21px;
+}
